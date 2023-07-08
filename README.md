@@ -6,5 +6,7 @@ Hackout '22 - Hackathon
 ![WhatsApp Image 2023-07-08 at 11 20 37 PM](https://github.com/snowflakes17/ECHO/assets/97460961/c7e417c2-8d3a-43bb-8b26-166c68472cf3)
 
 
-https://github.com/snowflakes17/ECHO/assets/97460961/917bee7e-95df-4b33-80f6-2d85a022f150
+
+
+https://github.com/snowflakes17/ECHO/assets/97460961/b22eb6cd-6238-46a6-ab46-67aa1f2c7f8f
 
