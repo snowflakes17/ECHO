@@ -1,13 +1,11 @@
 
-import speech_recognition as sr
-import pyttsx3
-import pywhatkit
-import wikipedia
-import pyttsx3
-from gtts import gTTS
-import os
-import AppOpener
-import cv2
+import speech_recognition as sr                                          #converting the user voice to text
+import pyttsx3                                                           #converting text to speech
+import pywhatkit                                                         #accessing and browsing youtube 
+import wikipedia                                                         #access the information form wikipedia.com (can read articles)
+import os                                                                #it allows the user to access the computer using simple commands
+import AppOpener                                                         #allows the user to open installed applications
+import cv2                                                               #the machine learning python module used for image processing
 def lizzie():
     query = ''
     print('\n')
@@ -18,11 +16,10 @@ def lizzie():
     def response():
 
         k = wikipedia.summary(query, sentences=2)
-        print(k)
-        engine = pyttsx3.init()
-        engine.say(k)
-
-        engine.runAndWait()
+        print(k)                                     
+        engine = pyttsx3.init()                    # initialling the pyttsx3 pre trained model 
+        engine.say(k)                              # the say function commands the system to deliver the given input text through a voice 
+        engine.runAndWait()                        #runandwait functions occupies some time after the execution of the function.
 
     k = 'hey user....................i m listening to you.........................lets have a  conversation........................'
     engine = pyttsx3.init()
